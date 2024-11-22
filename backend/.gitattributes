@@ -1,0 +1,10 @@
+# Установить LF для всех текстовых файлов
+* text=auto eol=lf
+
+# Явно задать LF для определённых типов файлов
+*.js text eol=lf
+*.ts text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+# 

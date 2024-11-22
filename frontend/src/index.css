@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply mt-5 p-3 text-sm bg-amazonColors-yellows w-full rounded-xl hover:bg-yellow-600;
+  }
+}
